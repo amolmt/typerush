@@ -1,7 +1,7 @@
 
 # Type Rush App
 
-**Type Rush** is a modern, responsive typing test application that helps users improve their typing speed and accuracy. It features a clean and intuitive user interface.
+**Type Rush** is a modern, responsive typing application that helps users improve their typing speed and accuracy. It features a clean and intuitive user interface.
 
 ---
 
