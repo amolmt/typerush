@@ -52,7 +52,7 @@ Follow these steps to set up the project on your local machine:
 ### Prerequisites
 
 - **Node.js** (v18+): Download and install [Node.js](https://nodejs.org/).
-- **npm** or **yarn**: Ensure you have a package manager installed.
+- **npm**:  Ensure you have a package manager installed.
 - **Git**: Version control system.
 
 ---
@@ -61,7 +61,7 @@ Follow these steps to set up the project on your local machine:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/typing-practice-app.git
+   git clone https://github.com/amolmt/typerush.git
    cd typing-practice-app
    ```
 
@@ -69,8 +69,6 @@ Follow these steps to set up the project on your local machine:
    Run the following command to install all project dependencies:
    ```bash
    npm install
-   # OR
-   yarn install
    ```
 
 3. **Run the Development Server**:
