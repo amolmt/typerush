@@ -1,4 +1,3 @@
-
 # Type Rush App
 
 **Type Rush** is a modern, responsive typing application that helps users improve their typing speed and accuracy. It features a clean and intuitive user interface.
@@ -6,6 +5,7 @@
 ---
 
 ## ✨ Demo
+
 ![Demo](src/assets/demo.png)
 
 ## 🚀 Tech Stack
@@ -13,6 +13,7 @@
 This project was built using:
 
 - **Frontend**:
+
   - [React](https://reactjs.org/) - Component-based library for building user interfaces.
   - [TypeScript](https://www.typescriptlang.org/) - Static typing for better code maintainability.
   - [Vite](https://vitejs.dev/) - Fast and modern frontend build tool.
@@ -21,6 +22,7 @@ This project was built using:
   - [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS for responsive and fast UI design.
 
 - **Backend**:
+
   - Placeholder API or Mock Data - Used to simulate fetching sample text and leaderboard entries.
 
 - **State Management**:
@@ -31,13 +33,16 @@ This project was built using:
 ## ✨ Features
 
 1. **Typing Test**:
+
    - Displays randomized typing text.
    - Tracks real-time accuracy and words-per-minute (WPM).
 
 2. **Stats Display**:
+
    - Shows **WPM** and **Accuracy** dynamically during typing.
 
 3. **Leaderboard**:
+
    - Displays a leaderboard of top performers fetched dynamically.
 
 4. **Theming**:
@@ -52,7 +57,7 @@ Follow these steps to set up the project on your local machine:
 ### Prerequisites
 
 - **Node.js** (v18+): Download and install [Node.js](https://nodejs.org/).
-- **npm**:  Ensure you have a package manager installed.
+- **npm**: Ensure you have a package manager installed.
 - **Git**: Version control system.
 
 ---
@@ -60,6 +65,7 @@ Follow these steps to set up the project on your local machine:
 ### Steps to Setup the Project
 
 1. **Clone the Repository**:
+
    ```bash
    git clone https://github.com/amolmt/typerush.git
    cd typing-practice-app
@@ -67,24 +73,28 @@ Follow these steps to set up the project on your local machine:
 
 2. **Install Dependencies**:
    Run the following command to install all project dependencies:
+
    ```bash
    npm install
    ```
 
 3. **Run the Development Server**:
    Start the Vite development server using:
+
    ```bash
    npm run dev
    ```
 
 4. **Open the App**:
    The app will be running on:
+
    ```
    http://localhost:5173
    ```
 
 5. **Build for Production** _(Optional)_:
    To generate a production build, run:
+
    ```bash
    npm run build
    ```
@@ -131,7 +141,7 @@ Contributions are welcome! Please follow these steps:
 
 ## 🔗 Links
 
-- **Live Demo**: [Coming Soon!]
+- **Live Demo**: [TypeRush]("https://typerushapp.netlify.app")
 - **Issues**: [Report an issue](https://github.com/your-username/typing-practice-app/issues)
 
 ---
