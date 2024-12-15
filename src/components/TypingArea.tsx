@@ -1,12 +1,16 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { StatsDisplay } from "./StatsDisplay";
-
-const sampleText =
-    "great plan present govern problem there would not own many change might may there day never large hand just do life number should say head these order person during real house again any there group up he develop year early begin";
+import {quotes} from "../assets/quotes"
 
 export function TypingArea() {
+    const [sampleText, setSampleText] = useState("");
     const [input, setInput] = useState("");
     const [startTime, setStartTime] = useState<number | null>(null);
+    useEffect(() => {
+        const randomIndex = Math.floor(Math.random() * quotes.length);
+        setSampleText(quotes[randomIndex]);
+    }, []);
+
     const handleInput = (e: React.ChangeEvent<HTMLInputElement>) => {
         if (!startTime) setStartTime(Date.now());
         setInput(e.target.value);
@@ -28,10 +32,10 @@ export function TypingArea() {
                                     isActive
                                         ? "text-yellow-500 underline"
                                         : isTyped
-                                            ? isCorrect
-                                                ? "text-gray-300"
-                                                : "text-red-500"
-                                            : "text-gray-500"
+                                        ? isCorrect
+                                            ? "text-gray-300"
+                                            : "text-red-500"
+                                        : "text-gray-500"
                                 }
                             >
                                 {char}
