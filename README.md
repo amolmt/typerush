@@ -6,6 +6,7 @@
 
 ## ✨ Demo
 
+**Live Demo**: [TypeRush](https://typerushapp.netlify.app)
 ![Demo](src/assets/demo.png)
 
 ## 🚀 Tech Stack
@@ -141,7 +142,7 @@ Contributions are welcome! Please follow these steps:
 
 ## 🔗 Links
 
-- **Live Demo**: [TypeRush]("https://typerushapp.netlify.app")
+- **Live Demo**: [TypeRush](https://typerushapp.netlify.app)
 - **Issues**: [Report an issue](https://github.com/your-username/typing-practice-app/issues)
 
 ---
